@@ -4,7 +4,7 @@ SRCS	=	main.cpp \
 OBJS	=	$(SRCS:.cpp=.o)
 
 LINK	=	-I/Bureaucrat.hpp
-NAME	=	Animal
+NAME	=	Bureaucrat
 CC		=	clang++
 CFLAGS	=	-Wall -Wextra -Werror
 RM		=	rm -rf
